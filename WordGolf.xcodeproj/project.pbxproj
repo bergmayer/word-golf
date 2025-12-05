@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2306B0A729A3AFDDC8EF67F2 /* WordGolfCore in Frameworks */ = {isa = PBXBuildFile; productRef = C9D377CD199EF723C3ECB66D /* WordGolfCore */; };
+		2658AAFAF8F84219F540AEA8 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = A40337278273E5497E881D8C /* AppIcon.icns */; };
+		346C604F9ECF5D4E99DB2B71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95908261F914DC566B5E0E9A /* ContentView.swift */; };
+		43DF03B9E571E65B46A103CD /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D000AB38A077896DDAF0D8C /* words.txt */; };
+		563868046CFBC9111BDDF2F9 /* WordGolfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7CE9CA5A0A4C53F0304E76 /* WordGolfApp.swift */; };
+		74AEF9AE75B9BCC3D2B6ED81 /* WordGolfCore in Frameworks */ = {isa = PBXBuildFile; productRef = 044B1AAC3E4816DC56942B59 /* WordGolfCore */; };
+		8122CEB69332CFD3A904C1BE /* ContentView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4185A5BB05FB097F1A898AE3 /* ContentView_iOS.swift */; };
+		AF8C696825F52D0E8FA2CCFF /* SolverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5833BF4F2CA0E4C333D9B2EB /* SolverView.swift */; };
+		C61F3D24F070F8F79954704A /* index_card.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 97D2BDF257FF45B0D51A45D5 /* index_card.jpg */; };
+		D723364E7D24B19A78E8897A /* WordGolfApp_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D4411E66B6E4C2BEFEE200 /* WordGolfApp_iOS.swift */; };
+		D8E8397F80A28298FDE1CD30 /* WordChainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F369370B022575683DAFF1 /* WordChainView.swift */; };
+		F0B4F6760C2922735767F368 /* index_card.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A16FB43511CCE2084700FD58 /* index_card.jpg */; };
+		F6B35105ED88E427B75F8DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62BEB41717BA5C075A1DF8A7 /* Assets.xcassets */; };
+		FCA44F6CE037E4D9BA41BC87 /* HintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24F495E44094620BBC9C48 /* HintView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		104F4B18306EFDB5F8FFB00A /* WordGolf-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WordGolf-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		342E675AC47B1E3B8FAE4D5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4185A5BB05FB097F1A898AE3 /* ContentView_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView_iOS.swift; sourceTree = "<group>"; };
+		562497B073BF4459BDDB50BC /* WordGolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordGolf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56512D0DF5F9ECECDA7FBB2B /* WordGolfCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WordGolfCore; path = Packages/WordGolfCore; sourceTree = SOURCE_ROOT; };
+		5833BF4F2CA0E4C333D9B2EB /* SolverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolverView.swift; sourceTree = "<group>"; };
+		5C7CE9CA5A0A4C53F0304E76 /* WordGolfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGolfApp.swift; sourceTree = "<group>"; };
+		5D000AB38A077896DDAF0D8C /* words.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
+		62BEB41717BA5C075A1DF8A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C5323B1049349C9B151404D /* WordGolf.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WordGolf.entitlements; sourceTree = "<group>"; };
+		74D4411E66B6E4C2BEFEE200 /* WordGolfApp_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGolfApp_iOS.swift; sourceTree = "<group>"; };
+		8B46E8AFA094FBAFF54B5C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		95908261F914DC566B5E0E9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		97D2BDF257FF45B0D51A45D5 /* index_card.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = index_card.jpg; sourceTree = "<group>"; };
+		A16FB43511CCE2084700FD58 /* index_card.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = index_card.jpg; sourceTree = "<group>"; };
+		A40337278273E5497E881D8C /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		B6F369370B022575683DAFF1 /* WordChainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordChainView.swift; sourceTree = "<group>"; };
+		DE24F495E44094620BBC9C48 /* HintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23684CC48A53CFE39EDE9013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74AEF9AE75B9BCC3D2B6ED81 /* WordGolfCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDDBB1920E7AA1D4A7FFD53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2306B0A729A3AFDDC8EF67F2 /* WordGolfCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12192036024DCB8AB4B503B5 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				56512D0DF5F9ECECDA7FBB2B /* WordGolfCore */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		26082AE47FC114B8628338E5 /* WordGolf */ = {
+			isa = PBXGroup;
+			children = (
+				A40337278273E5497E881D8C /* AppIcon.icns */,
+				95908261F914DC566B5E0E9A /* ContentView.swift */,
+				DE24F495E44094620BBC9C48 /* HintView.swift */,
+				97D2BDF257FF45B0D51A45D5 /* index_card.jpg */,
+				8B46E8AFA094FBAFF54B5C3B /* Info.plist */,
+				5833BF4F2CA0E4C333D9B2EB /* SolverView.swift */,
+				B6F369370B022575683DAFF1 /* WordChainView.swift */,
+				6C5323B1049349C9B151404D /* WordGolf.entitlements */,
+				5C7CE9CA5A0A4C53F0304E76 /* WordGolfApp.swift */,
+				5D000AB38A077896DDAF0D8C /* words.txt */,
+			);
+			path = WordGolf;
+			sourceTree = "<group>";
+		};
+		2CB7E6DB6FEB0C46E719C8A6 = {
+			isa = PBXGroup;
+			children = (
+				12192036024DCB8AB4B503B5 /* Packages */,
+				2D391F28C95E808514FE35C2 /* WordGolfProject */,
+				4C59EF2D6418BFBEE5CEBC52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D391F28C95E808514FE35C2 /* WordGolfProject */ = {
+			isa = PBXGroup;
+			children = (
+				26082AE47FC114B8628338E5 /* WordGolf */,
+				A95A3FB0B656606D5715CE6F /* WordGolf-iOS */,
+			);
+			path = WordGolfProject;
+			sourceTree = "<group>";
+		};
+		4C59EF2D6418BFBEE5CEBC52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				104F4B18306EFDB5F8FFB00A /* WordGolf-iOS.app */,
+				562497B073BF4459BDDB50BC /* WordGolf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A95A3FB0B656606D5715CE6F /* WordGolf-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				62BEB41717BA5C075A1DF8A7 /* Assets.xcassets */,
+				4185A5BB05FB097F1A898AE3 /* ContentView_iOS.swift */,
+				A16FB43511CCE2084700FD58 /* index_card.jpg */,
+				342E675AC47B1E3B8FAE4D5B /* Info.plist */,
+				74D4411E66B6E4C2BEFEE200 /* WordGolfApp_iOS.swift */,
+			);
+			path = "WordGolf-iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38F02A745D8AB487357FC825 /* WordGolf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CDDEEAF7FAC89AF3B51E44E /* Build configuration list for PBXNativeTarget "WordGolf" */;
+			buildPhases = (
+				46C6288406F2197ABA7C35DE /* Sources */,
+				F7684D54BADA7669B72FB0F1 /* Resources */,
+				4EDDBB1920E7AA1D4A7FFD53 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordGolf;
+			packageProductDependencies = (
+				C9D377CD199EF723C3ECB66D /* WordGolfCore */,
+			);
+			productName = WordGolf;
+			productReference = 562497B073BF4459BDDB50BC /* WordGolf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A826762840436C45F16BD67 /* WordGolf-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23329A3750E3E9080E4D5D82 /* Build configuration list for PBXNativeTarget "WordGolf-iOS" */;
+			buildPhases = (
+				0F914464C5206FACE46C7B3F /* Sources */,
+				0E904932589D9E006D9DFCA5 /* Resources */,
+				23684CC48A53CFE39EDE9013 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WordGolf-iOS";
+			packageProductDependencies = (
+				044B1AAC3E4816DC56942B59 /* WordGolfCore */,
+			);
+			productName = "WordGolf-iOS";
+			productReference = 104F4B18306EFDB5F8FFB00A /* WordGolf-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		325A5A1975E4382127F2D66E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					38F02A745D8AB487357FC825 = {
+						ProvisioningStyle = Automatic;
+					};
+					3A826762840436C45F16BD67 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 610E72544F8F0341442BD7E2 /* Build configuration list for PBXProject "WordGolf" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 2CB7E6DB6FEB0C46E719C8A6;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				71C55BCFEB1233EE1F2959E6 /* XCLocalSwiftPackageReference "Packages/WordGolfCore" */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38F02A745D8AB487357FC825 /* WordGolf */,
+				3A826762840436C45F16BD67 /* WordGolf-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E904932589D9E006D9DFCA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B35105ED88E427B75F8DB8 /* Assets.xcassets in Resources */,
+				F0B4F6760C2922735767F368 /* index_card.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7684D54BADA7669B72FB0F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2658AAFAF8F84219F540AEA8 /* AppIcon.icns in Resources */,
+				C61F3D24F070F8F79954704A /* index_card.jpg in Resources */,
+				43DF03B9E571E65B46A103CD /* words.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F914464C5206FACE46C7B3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8122CEB69332CFD3A904C1BE /* ContentView_iOS.swift in Sources */,
+				D723364E7D24B19A78E8897A /* WordGolfApp_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C6288406F2197ABA7C35DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346C604F9ECF5D4E99DB2B71 /* ContentView.swift in Sources */,
+				FCA44F6CE037E4D9BA41BC87 /* HintView.swift in Sources */,
+				AF8C696825F52D0E8FA2CCFF /* SolverView.swift in Sources */,
+				D8E8397F80A28298FDE1CD30 /* WordChainView.swift in Sources */,
+				563868046CFBC9111BDDF2F9 /* WordGolfApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		484FE0C15732FCC62ED129B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2T9LB27UWT;
+				INFOPLIST_FILE = "WordGolfProject/WordGolf-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.palefire.WordGolf-iOS";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56E917D42637B5C4E6513265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B371CB9121267788CA9EC61A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2T9LB27UWT;
+				INFOPLIST_FILE = "WordGolfProject/WordGolf-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.palefire.WordGolf-iOS";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B3E2741F76A9AFDF21F36958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WordGolfProject/WordGolf/WordGolf.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = WordGolfProject/WordGolf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.palefire.WordGolf;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		F439867D2C22A26F71208D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WordGolfProject/WordGolf/WordGolf.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = WordGolfProject/WordGolf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.palefire.WordGolf;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		FE36CC9724967E5D1FD13A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23329A3750E3E9080E4D5D82 /* Build configuration list for PBXNativeTarget "WordGolf-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484FE0C15732FCC62ED129B5 /* Debug */,
+				B371CB9121267788CA9EC61A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3CDDEEAF7FAC89AF3B51E44E /* Build configuration list for PBXNativeTarget "WordGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E2741F76A9AFDF21F36958 /* Debug */,
+				F439867D2C22A26F71208D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		610E72544F8F0341442BD7E2 /* Build configuration list for PBXProject "WordGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56E917D42637B5C4E6513265 /* Debug */,
+				FE36CC9724967E5D1FD13A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		71C55BCFEB1233EE1F2959E6 /* XCLocalSwiftPackageReference "Packages/WordGolfCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/WordGolfCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		044B1AAC3E4816DC56942B59 /* WordGolfCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WordGolfCore;
+		};
+		C9D377CD199EF723C3ECB66D /* WordGolfCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WordGolfCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 325A5A1975E4382127F2D66E /* Project object */;
+}
